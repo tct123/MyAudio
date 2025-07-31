@@ -1,9 +1,10 @@
 import flet as ft
+import flet_audio as fta
 
 
 def main(page: ft.Page):
     page.adaptive = True
-    audio1 = ft.Audio(
+    audio1 = fta.Audio(
         src="https://luan.xyz/files/audio/ambient_c_motion.mp3", autoplay=True
     )
     body = ft.Column(
